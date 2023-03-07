@@ -1,7 +1,7 @@
-package com.example.movieapp.data
+package com.example.movieapp.domain.repositories
 
-import com.example.movieapp.data.model.PopularMoviesResponse
-import com.example.movieapp.data.network.MoviesService
+import com.example.movieapp.domain.model.response.PopularMoviesResponse
+import com.example.movieapp.domain.network.MoviesService
 
 class MovieRepository {
 

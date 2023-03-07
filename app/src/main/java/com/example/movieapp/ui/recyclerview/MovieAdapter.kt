@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.movieapp.R
-import com.example.movieapp.data.model.Movie
+import com.example.movieapp.domain.model.Movie
 
 class MovieAdapter(): RecyclerView.Adapter<MovieViewHolder>() {
     private var movieList: MutableList<Movie> = mutableListOf();

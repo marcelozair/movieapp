@@ -1,7 +1,7 @@
-package com.example.movieapp.data.network
+package com.example.movieapp.domain.network
 
 import com.example.movieapp.core.RetrofitHelper
-import com.example.movieapp.data.model.PopularMoviesResponse
+import com.example.movieapp.domain.model.response.PopularMoviesResponse
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

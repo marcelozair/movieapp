@@ -1,6 +1,6 @@
-package com.example.movieapp.data.network
+package com.example.movieapp.domain.network
 
-import com.example.movieapp.data.model.PopularMoviesResponse
+import com.example.movieapp.domain.model.response.PopularMoviesResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

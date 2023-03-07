@@ -4,7 +4,7 @@ import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.movieapp.R
-import com.example.movieapp.data.model.Movie
+import com.example.movieapp.domain.model.Movie
 import com.example.movieapp.databinding.MovieBinding
 import com.example.movieapp.utils.Dates
 

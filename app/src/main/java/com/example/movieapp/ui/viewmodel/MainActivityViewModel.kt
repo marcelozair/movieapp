@@ -4,9 +4,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.movieapp.data.MovieRepository
-import com.example.movieapp.data.model.Movie
-import com.example.movieapp.data.model.PopularMoviesResponse
+import com.example.movieapp.domain.repositories.MovieRepository
+import com.example.movieapp.domain.model.response.PopularMoviesResponse
 import kotlinx.coroutines.launch
 
 class MainActivityViewModel : ViewModel() {
